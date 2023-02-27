@@ -27,6 +27,8 @@ body::-webkit-scrollbar {
 }
 
 .BlitzWolfBWKB0{
+    height: 9.58031088082902vh;
+    width: 3.44041450777203vh;
     border: 1.5vh solid rgb(15, 15, 15);
     border-radius: 3vh;
 }
