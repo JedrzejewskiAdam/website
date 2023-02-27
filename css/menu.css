@@ -1,0 +1,151 @@
+html, body {
+    height: 100vh;
+    width: 80vw;
+    margin: 0;
+}
+html { 
+    background-color: rgba(0, 0, 0, 0.01);
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(50, 50, 50);
+    border-radius: 3vh;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.headermenu{
+    position: absolute;
+    color: white;
+    transform: translate(-50%, -50%);
+    left: 39vw;
+    font-size: 5vh;
+}
+
+
+.mennuu{
+    position: relative;
+    left: 1vw;
+    top: 1vh;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    font-size: 5vh;
+    width: 4vw;
+    height: 8vh;
+}
+
+.mennuu:hover{
+    cursor: pointer;
+    border-radius: 1vh;
+    background-color: rgb(31, 31, 31);
+}
+
+.buttons button{
+    background-color: rgba(0, 0, 0, 0.508);
+    border-radius: 2vh;
+    border: 0vh;
+    height: 10vh;
+    width: 30vh;
+    font-size: 3vh;
+}
+
+.buttons{
+    transform: translate(-44%, -50%);
+    position: relative;
+    left: 44vw;
+    top: 7.5vh;
+}
+
+.Devices{
+
+}
+
+.Devices:hover{
+    background-color: rgba(0, 0, 0, 0.208);
+}
+
+.Devicesopen{
+    animation: fadein 1.5s;
+    position: absolute;
+    left: 40vw;
+    transform: translate(-50%, 50%);
+    top: -10vh;
+}
+
+.Devicespage{
+	position:relative;
+	width:70vw;
+	height:70vh;
+    border-radius: 3vh;
+}
+
+.Arena{
+
+}
+
+.Arena:hover{
+    background-color: rgba(0, 0, 0, 0.208);
+}
+
+.Arenaopen{
+    animation: fadein 1.5s;
+    position: absolute;
+    left: 40vw;
+    transform: translate(-50%, 50%);
+    top: -10vh;
+}
+
+.Arenapage{
+	position:relative;
+	width:70vw;
+	height:70vh;
+    border-radius: 3vh;
+}
+
+.Settings{
+
+}
+
+.Settings:hover{
+    background-color: rgba(0, 0, 0, 0.208);
+}
+
+.Settingsopen{
+    animation: fadein 1.5s;
+    position: absolute;
+    left: 40vw;
+    transform: translate(-50%, 50%);
+    top: -10vh;
+}
+
+.Settingspage{
+	position:relative;
+	width:70vw;
+	height:70vh;
+    border-radius: 3vh;
+}
+
+.Tournaments{
+
+}
+
+.Tournaments:hover{
+    background-color: rgba(0, 0, 0, 0.208);
+}
+
+.Tournamentsopen{
+    animation: fadein 1.5s;
+    position: absolute;
+    left: 40vw;
+    transform: translate(-50%, 50%);
+    top: -10vh;
+}
+
+.Tournamentspage{
+	position:relative;
+	width:70vw;
+	height:70vh;
+    border-radius: 3vh;
+}
