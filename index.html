@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KryszynFN</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <script src="js/script.js"></script>
+    <video class="background" src="mp4/background.mp4" loop autoplay muted></video>
+    <nav class="header">
+        <button class="MenuButton" onclick="Menu()">Menu</button>
+        <button class="Trackerbutton" onclick="Tracker()">Tracker</button>
+        <button class="Socialbutton" onclick="Socialedown()">Social</button>
+    </nav>
+    <div class="tracker" id="Tracker" hidden>
+        <embed class="trackerpage" src="https://fortnitetracker.com/profile/all/%ce%9bdam1312">
+    </div>
+    <div class="menuopen" id="menuopen" hidden>
+        <embed class="menupage" src="menu.html">
+    </div>
+    <div class="Social" id="Social">
+            <a href="https://twitter.com/Adam76193034" target="_blank" class="">
+                <i class="fa fa-twitter" style="position: relative;left: 15vw;top: -0.7vh;height: 3.35vh;width: 2.7vw; color: rgb(0, 162, 255); font-size: 4.5vh;"></i>
+                <!-- <img class="twtlogo" src="img/twtlogo.png" alt="twtlogo"> -->
+            </a>
+            <a href="https://www.instagram.com/kryszynfn/" target="_blank">
+                <i class="fa fa-instagram" style="position: relative;left: 35vw;top: -0.4vh;height: 3.35vh;width: 2.7vw; color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);; font-size: 4.5vh;"></i>
+            </a>
+            <div class="yt">
+                <i onclick="ytmenu()" class="fa fa-youtube-play" style="position: relative;left: 55vw;top: -0.7vh;height: 3.35vh;width: 2.7vw; color: red; font-size: 4.5vh;"></i>
+                <!-- <img onclick="ytmenu()" class="ytlogo" src="img/ytlogo.png" alt="iglogo"> -->
+            </div>
+            <a href="https://www.twitch.tv/kryszynfn" target="_blank">
+                <i class="fa fa-twitch" style="position: relative;left: 73vw;top: -0.0vh;height: 3.35vh;width: 2.7vw; color: rgb(153, 0, 255); font-size: 4.5vh;"></i>
+            </a>
+    </div>
+    <div class="ytmenu" id="ytmenu" hidden>
+        <div class="ytmenud">
+            <button class="ytbuttotnytmenu" onclick="Lastvideo()"><i class="fa fa-youtube-play" style="font-size:6.1vh;color:red"></i></button>
+            <a href="https://www.youtube.com/@KryszynFN/channels" target="_blank" class="ytbuttotnytmenu">
+                <i class="fa fa-youtube-play" style="font-size:6.1vh;color:red"></i>
+            </a>
+        </div>
+        <div class="ez">
+            <a>Last Video</a>
+            <a>Channel</a>
+        </div>
+    </div>
+    <div class="lastvideo" id="lastvideo" hidden>
+	<iframe class="lastvideopage" src="https://www.youtube.com/embed/O3O72ogyWlo" title="first video coming soon" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="XX" >
+            <button class="X" onclick="Lastvideo()">X</button>
+        </div>
+    </div>
+</body>
+</html>
